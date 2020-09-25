@@ -4,13 +4,19 @@ const latte = {name: "Cafe Latte", price: 4, category: "Drinks"};
 const burger = {name: "Burger", price: 18, category: "Lunch"};
 const breakfastBurrito = {name: "Breakfast Burrito", price: 16, category:"Breakfast"};
 
+
 /* Task 1a: write a function to return more menu items with the same format as the items above. */
 
-function createMenuItem(name, price, category){
-    /* Code here */
-}
+  function returnMenuItem(name, cost, category){
+   return {name, cost, category}
+  }
+
+
 
 /* Task 1b: use your function to create 3 more menu items. You may add any items to the menu that you'd like */
+console.log(returnMenuItem("Club sandiwch", 8, "Lunch"))
+console.log(returnMenuItem("French toast", 19, "Breakfast"))
+console.log(returnMenuItem("Lemonade", 3, "Drinks"))
 
 
 
@@ -23,6 +29,13 @@ Your method should accept:
 and should return a number. 
 
 For example, burger.discount("teacher") would return 13.5 and burger.discount("public") would return 16.2*/
+
+
+
+
+
+
+
 
 
 
